@@ -1,0 +1,45 @@
+public class CS2 {
+private String Address;
+private String gurdian;
+private String Gender;
+private String work;
+private int EmpSalary;
+private int empID;
+private int numD;
+private int Ot;
+
+    public static void main(String[] args) {
+     //Method 4:
+     
+    public void getnumD()
+    {
+        this.numD = numD;
+    }  
+
+    public void getNumofD(int numD)
+    {
+        this.numD = numD;
+    }
+   
+    //Method 5:
+    public void getEmpSalary(int EmpSalary)
+    {
+        this.EmpSalary = EmpSalary;
+    }
+   
+    public int showEmpSalary()
+    {
+        return EmpSalary;
+    }
+    
+    //Method 6:
+    public void getOt(int Ot)
+    {
+        this.Ot = Ot;
+    }
+    
+    public int showOt()
+    {
+        return Ot;
+    }
+}
