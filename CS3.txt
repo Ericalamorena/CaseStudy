@@ -1,0 +1,40 @@
+public class CS3 {
+private String Address;
+private String gurdian;
+private String Gender;
+private String work;
+private int EmpSalary;
+private int empID;
+private int numD;
+private int OtAmount;
+private int Tax;
+    public static void main(String[] args) {
+    //Method 7:
+
+  public void getOtAmount(int OtAmount)
+    {
+        this.OtAmount = OtAmount;
+    }
+    
+    public int showOtAmount()
+    {
+        return OtAmount;
+    }
+  
+    //Method 8:
+    public void getTax(int tax)
+    {
+        this.Tax = tax;
+    }
+    
+    public int showTax()
+    {
+        return Tax;
+    }
+//Method 9:
+    public int TSalary()
+    {
+       int TotalSalary = (EmpSalary* 10)+OtAmount;
+       return TotalSalary;
+    }
+}
